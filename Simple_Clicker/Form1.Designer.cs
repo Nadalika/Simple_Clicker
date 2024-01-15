@@ -42,6 +42,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -55,7 +57,7 @@
             // 
             this.waluta_label.AutoSize = true;
             this.waluta_label.Font = new System.Drawing.Font("Noto Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.waluta_label.Location = new System.Drawing.Point(338, 104);
+            this.waluta_label.Location = new System.Drawing.Point(327, 55);
             this.waluta_label.Name = "waluta_label";
             this.waluta_label.Size = new System.Drawing.Size(118, 24);
             this.waluta_label.TabIndex = 1;
@@ -65,9 +67,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Noto Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Location = new System.Drawing.Point(45, 140);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(55, 15);
             this.label1.TabIndex = 8;
             this.label1.Text = "label1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -75,9 +79,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Noto Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.Location = new System.Drawing.Point(45, 325);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.Size = new System.Drawing.Size(55, 15);
             this.label2.TabIndex = 9;
             this.label2.Text = "label2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -85,9 +91,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Noto Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.Location = new System.Drawing.Point(45, 486);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
+            this.label3.Size = new System.Drawing.Size(55, 15);
             this.label3.TabIndex = 10;
             this.label3.Text = "label3";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,9 +102,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(619, 140);
+            this.label4.Font = new System.Drawing.Font("Noto Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(568, 140);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.Size = new System.Drawing.Size(55, 15);
             this.label4.TabIndex = 11;
             this.label4.Text = "label4";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -105,9 +113,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(619, 325);
+            this.label5.Font = new System.Drawing.Font("Noto Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(568, 325);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
+            this.label5.Size = new System.Drawing.Size(55, 15);
             this.label5.TabIndex = 12;
             this.label5.Text = "label5";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,9 +124,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(619, 486);
+            this.label6.Font = new System.Drawing.Font("Noto Mono", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.Location = new System.Drawing.Point(568, 486);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 16);
+            this.label6.Size = new System.Drawing.Size(55, 15);
             this.label6.TabIndex = 13;
             this.label6.Text = "label6";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -125,7 +135,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Simple_Clicker.Properties.Resources.White_crystal1Grey;
-            this.pictureBox5.Location = new System.Drawing.Point(622, 374);
+            this.pictureBox5.Location = new System.Drawing.Point(620, 374);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 100);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -136,7 +146,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Simple_Clicker.Properties.Resources.Violet_crystal1Grey;
-            this.pictureBox6.Location = new System.Drawing.Point(622, 208);
+            this.pictureBox6.Location = new System.Drawing.Point(620, 208);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 100);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -147,7 +157,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Simple_Clicker.Properties.Resources.Black_crystal1Grey;
-            this.pictureBox7.Location = new System.Drawing.Point(622, 28);
+            this.pictureBox7.Location = new System.Drawing.Point(620, 27);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 100);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -158,7 +168,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Simple_Clicker.Properties.Resources.Pink_crystal1Grey;
-            this.pictureBox4.Location = new System.Drawing.Point(48, 374);
+            this.pictureBox4.Location = new System.Drawing.Point(85, 374);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 100);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -169,7 +179,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Simple_Clicker.Properties.Resources.Red_crystal1Grey;
-            this.pictureBox3.Location = new System.Drawing.Point(48, 208);
+            this.pictureBox3.Location = new System.Drawing.Point(85, 208);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 100);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -180,7 +190,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Simple_Clicker.Properties.Resources.Yellow_crystal1Grey;
-            this.pictureBox2.Location = new System.Drawing.Point(48, 28);
+            this.pictureBox2.Location = new System.Drawing.Point(85, 27);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 100);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -191,7 +201,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Simple_Clicker.Properties.Resources._68308;
-            this.pictureBox1.Location = new System.Drawing.Point(303, 165);
+            this.pictureBox1.Location = new System.Drawing.Point(289, 109);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(189, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -199,11 +209,32 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(308, 325);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(156, 76);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Upgrade Menu";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(308, 425);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(156, 76);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 553);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -251,6 +282,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

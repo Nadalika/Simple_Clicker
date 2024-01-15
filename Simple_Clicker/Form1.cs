@@ -22,6 +22,7 @@ namespace Simple_Clicker
         public bool pictureBox7Bought = false;
         public bool pictureBox6Bought = false;
         public bool pictureBox5Bought = false;
+        private UpgradeMenu upgradeMenu;
 
         public Form1()
         {
@@ -190,6 +191,26 @@ namespace Simple_Clicker
                     pictureBox5.Image = Properties.Resources.White_crystal1;
                 }
             }
+        }
+
+        private void ShowUpgradeMenu()
+        {
+            upgradeMenu = new UpgradeMenu();
+            upgradeMenu.Dock = DockStyle.Fill;
+
+            Controls.Add( upgradeMenu );
+
+            upgradeMenu.BackButtonClicked += UpgradeMenu_BackButtonClicked;
+        }
+
+        private void UpgradeMenu_BackButtonClicked( object sender, EventArgs e)
+        {
+            Controls.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShowUpgradeMenu();
         }
     }
 }
