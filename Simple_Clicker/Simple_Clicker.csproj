@@ -107,5 +107,23 @@
   <ItemGroup>
     <None Include="Resources\White_crystal1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow_crystal1Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red_crystal1Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pink_crystal1Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black_crystal1Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Violet_crystal1Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White_crystal1Grey.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
