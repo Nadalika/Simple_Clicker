@@ -13,11 +13,8 @@ namespace Simple_Clicker
 {
     public partial class Form1 : Form
     {
-        
-
         private GameControl gameControl;
         private UpgradeMenu upgradeMenu;
-        
 
         public Form1()
         {
