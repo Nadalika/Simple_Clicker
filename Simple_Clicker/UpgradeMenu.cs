@@ -67,31 +67,31 @@ namespace Simple_Clicker
         private void up2Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(1);
-            up1PictureBox.Image = Resources.Up2;
+            up2PictureBox.Image = Resources.Up2;
         }
 
         private void up3Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(2);
-            up1PictureBox.Image = Resources.Up3;
+            up3PictureBox.Image = Resources.Up4;
         }
 
         private void up4Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(3);
-            up1PictureBox.Image = Resources.Up4;
+            up4PictureBox.Image = Resources.Up3;
         }
 
         private void up5Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(4);
-            up1PictureBox.Image = Resources.Up5;
+            up5PictureBox.Image = Resources.Up5;
         }
 
         private void up6Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(5);
-            up1PictureBox.Image = Resources.Up6;
+            up6PictureBox.Image = Resources.Up6;
         }
 
         private void BuyUpgrade(int upgradeIndex)

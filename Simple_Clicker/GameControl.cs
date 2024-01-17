@@ -14,6 +14,7 @@ namespace Simple_Clicker
     {
         public static int Waluta { get; set; } = 0;
         public int ilosc = 1;
+        private bool mousePressed = false;
         public bool pictureBox2Bought = false;
         public bool pictureBox3Bought = false;
         public bool pictureBox4Bought = false;
@@ -35,6 +36,8 @@ namespace Simple_Clicker
             label5.Text = "Koszt zakupu: 2000 \n Klik = 75";
             label6.Text = "Koszt zakupu: 4000 \n Klik = 110";
 
+            pictureBox1.MouseDown += pictureBox1_MouseDown;
+
         }
 
         public Label WalutaLabel
@@ -42,11 +45,20 @@ namespace Simple_Clicker
             get { return waluta_label; }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
-            Waluta += ilosc;
-            GameStateManager.Instance.CollectedResources = Waluta;
-            waluta_label.Text = "Waluta:" + Waluta.ToString();
+            if (e.Button == MouseButtons.Left && !mousePressed)
+            {
+                mousePressed = true;
+                Waluta += ilosc;
+                GameStateManager.Instance.CollectedResources = Waluta;
+                waluta_label.Text = "Waluta:" + Waluta.ToString();
+            }
+        }
+
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            mousePressed = false;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -202,5 +214,7 @@ namespace Simple_Clicker
         {
             UpgradeMenuClicked?.Invoke(this, EventArgs.Empty);
         }
+
+        
     }
 }
