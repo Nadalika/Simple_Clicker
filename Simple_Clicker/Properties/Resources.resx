@@ -121,11 +121,20 @@
   <data name="Violet_crystal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Violet_crystal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Up4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pink_crystal1Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pink_crystal1Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Red_crystal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Red_crystal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Up3Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Up3Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,17 +142,29 @@
   <data name="Red_crystal1Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Red_crystal1Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Yellow_crystal1Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yellow_crystal1Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Up2Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Up2Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Up3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pink_crystal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pink_crystal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="68308" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\68308.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="White_crystal1Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\White_crystal1Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up6Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up6Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Up5Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Up5Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,34 +187,16 @@
   <data name="Up4Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Up4Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Black_crystal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Black_crystal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Yellow_crystal1Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Yellow_crystal1Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Up6Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Up6Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Up1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Up2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Up2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Up3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Up3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Up4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Up4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Up5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Up5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Up6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Up6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Black_crystal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black_crystal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_68308_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\68308_click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d2d484206bc5b36c528cfe6dfab3cc99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d2d484206bc5b36c528cfe6dfab3cc99.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

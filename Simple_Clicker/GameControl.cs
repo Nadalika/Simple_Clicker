@@ -24,6 +24,7 @@ namespace Simple_Clicker
         public bool pictureBox5Bought = false;
 
         public event EventHandler UpgradeMenuClicked;
+        public event EventHandler CreditsMenuClicked;
 
         public GameControl()
         {
@@ -220,6 +221,9 @@ namespace Simple_Clicker
             UpgradeMenuClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CreditsMenuClicked?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

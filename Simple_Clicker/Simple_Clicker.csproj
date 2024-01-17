@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreditsMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreditsMenu.Designer.cs">
+      <DependentUpon>CreditsMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="UpgradeMenu.Designer.cs">
       <DependentUpon>UpgradeMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CreditsMenu.resx">
+      <DependentUpon>CreditsMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,13 +109,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\minecraft-pocket-edition-pickaxe-mining-rock-pixel-art-thumbnail.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\68308.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Black_crystal4.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Yellow_crystal1.png" />
@@ -182,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\68308_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d2d484206bc5b36c528cfe6dfab3cc99.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
