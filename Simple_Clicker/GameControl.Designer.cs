@@ -36,13 +36,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.waluta_label = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.waluta_label = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -64,6 +64,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.button1.Location = new System.Drawing.Point(326, 361);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 76);
@@ -140,6 +141,17 @@
             this.label1.Text = "label1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // waluta_label
+            // 
+            this.waluta_label.AutoSize = true;
+            this.waluta_label.Font = new System.Drawing.Font("Noto Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.waluta_label.Location = new System.Drawing.Point(345, 91);
+            this.waluta_label.Name = "waluta_label";
+            this.waluta_label.Size = new System.Drawing.Size(118, 24);
+            this.waluta_label.TabIndex = 17;
+            this.waluta_label.Text = "Waluta: 0";
+            this.waluta_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Simple_Clicker.Properties.Resources.White_crystal1Grey;
@@ -205,17 +217,6 @@
             this.pictureBox2.TabIndex = 18;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // waluta_label
-            // 
-            this.waluta_label.AutoSize = true;
-            this.waluta_label.Font = new System.Drawing.Font("Noto Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.waluta_label.Location = new System.Drawing.Point(345, 91);
-            this.waluta_label.Name = "waluta_label";
-            this.waluta_label.Size = new System.Drawing.Size(118, 24);
-            this.waluta_label.TabIndex = 17;
-            this.waluta_label.Text = "Waluta: 0";
-            this.waluta_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 

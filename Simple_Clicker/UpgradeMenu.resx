@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Bursztyn: Ten złocisty kamień, pochodzący głęboko spod ziemi, zachwyca swoim blaskiem. Kiedy go kupisz, wydobywasz z niego energię, która podwaja Twoje zdolności górnicze na chwilę. Wykorzystaj tę mroczną jantarną moc, aby zwiększyć wydobycie surowców.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Fiolka Many: Tajemnicza esencja, która emanuje z fiolki, ukryta głęboko w podziemnych korytarzach. Gdy ją aktywujesz, energia magiczna wypełnia Twoje narzędzia górnicze, zwiększając tempo kopania surowców. </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Stek: Solidna porcja energii, gotowa do spożycia podczas intensywnego kopania. Z każdym kęsem zyskujesz wytrzymałość i zapał do pracy. Stek dodaje sił, zwiększając wydobycie surowców za każde kliknięcie. </value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Starożytny Zwój: Zakurzony pergamin pełen zapomnianej mądrości, który kryje tajemnice dawnych technik górniczych. Po jego aktywacji odkrywasz starożytne sekrety kopaczy, zwiększając efektywność każdego kliknięcia.</value>
+  </data>
 </root>

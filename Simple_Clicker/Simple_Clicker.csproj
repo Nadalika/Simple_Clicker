@@ -144,5 +144,23 @@
   <ItemGroup>
     <None Include="Resources\White_crystal1Grey.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up1Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up2Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up3Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up4Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up5Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up6Grey.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
