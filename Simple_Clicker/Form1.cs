@@ -16,6 +16,8 @@ namespace Simple_Clicker
         private GameControl gameControl;
         private UpgradeMenu upgradeMenu;
 
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +32,7 @@ namespace Simple_Clicker
             upgradeMenu.Dock = DockStyle.Fill;
             Controls.Add(upgradeMenu);
 
+            upgradeMenu.WalutaUpdated += UpgradeMenu_WalutaUpdated;
         }       
 
         private void GameControl_UpgradeMenuClicked(object sender, EventArgs e)
@@ -43,6 +46,19 @@ namespace Simple_Clicker
             upgradeMenu.Visible = false;
             gameControl.Visible = true;
         }
+
+        private void UpgradeMenu_WalutaUpdated(object sender, int totalWaluta)
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(() => gameControl.WalutaLabel.Text = "Waluta:" + totalWaluta.ToString()));
+            }
+            else
+            {
+                gameControl.WalutaLabel.Text = "Waluta:" + totalWaluta.ToString();
+            }
+        }
+
 
     }
 }

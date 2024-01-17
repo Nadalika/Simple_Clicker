@@ -12,7 +12,7 @@ namespace Simple_Clicker
 {
     public partial class GameControl : UserControl
     {
-        public int waluta = 0;
+        public static int Waluta { get; set; } = 0;
         public int ilosc = 1;
         public bool pictureBox2Bought = false;
         public bool pictureBox3Bought = false;
@@ -26,8 +26,8 @@ namespace Simple_Clicker
         public GameControl()
         {
             InitializeComponent();
-            waluta = GameStateManager.Instance.CollectedResources;
-            waluta_label.Text = "Waluta: " + waluta.ToString();
+            Waluta = GameStateManager.Instance.CollectedResources;
+            waluta_label.Text = "Waluta: " + Waluta.ToString();
             label1.Text = "Koszt zakupu: 10 \n Klik = 5";
             label2.Text = "Koszt zakupu: 100 \n Klik = 15";
             label3.Text = "Koszt zakupu: 500 \n Klik = 25";
@@ -37,16 +37,21 @@ namespace Simple_Clicker
 
         }
 
+        public Label WalutaLabel
+        {
+            get { return waluta_label; }
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            waluta += ilosc;
-            GameStateManager.Instance.CollectedResources = waluta;
-            waluta_label.Text = "Waluta:" + waluta.ToString();
+            Waluta += ilosc;
+            GameStateManager.Instance.CollectedResources = Waluta;
+            waluta_label.Text = "Waluta:" + Waluta.ToString();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (waluta >= 10)
+            if (Waluta >= 10)
             {
 
                 if (pictureBox2Bought)
@@ -57,8 +62,8 @@ namespace Simple_Clicker
                 else if (!pictureBox2Bought)
                 {
                     ilosc = 5;
-                    waluta -= 10;
-                    waluta_label.Text = "Waluta: " + waluta.ToString();
+                    Waluta -= 10;
+                    waluta_label.Text = "Waluta: " + Waluta.ToString();
                     pictureBox2Bought = true;
                     pictureBox2.Image = Properties.Resources.Yellow_crystal1;
                 }
@@ -71,7 +76,7 @@ namespace Simple_Clicker
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            if (waluta >= 100)
+            if (Waluta >= 100)
             {
 
                 if (pictureBox3Bought)
@@ -82,8 +87,8 @@ namespace Simple_Clicker
                 else if (!pictureBox3Bought)
                 {
                     ilosc = 15;
-                    waluta -= 100;
-                    waluta_label.Text = "Waluta: " + waluta.ToString();
+                    Waluta -= 100;
+                    waluta_label.Text = "Waluta: " + Waluta.ToString();
                     pictureBox3Bought = true;
                     pictureBox3.Image = Properties.Resources.Red_crystal1;
                 }
@@ -96,7 +101,7 @@ namespace Simple_Clicker
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            if (waluta >= 500)
+            if (Waluta >= 500)
             {
 
                 if (pictureBox4Bought)
@@ -107,8 +112,8 @@ namespace Simple_Clicker
                 else if (!pictureBox4Bought)
                 {
                     ilosc = 25;
-                    waluta -= 500;
-                    waluta_label.Text = "Waluta: " + waluta.ToString();
+                    Waluta -= 500;
+                    waluta_label.Text = "Waluta: " + Waluta.ToString();
                     pictureBox4Bought = true;
                     pictureBox4.Image = Properties.Resources.Pink_crystal1;
                 }
@@ -121,7 +126,7 @@ namespace Simple_Clicker
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            if (waluta >= 1000)
+            if (Waluta >= 1000)
             {
 
 
@@ -133,8 +138,8 @@ namespace Simple_Clicker
                 else if (!pictureBox7Bought)
                 {
                     ilosc = 50;
-                    waluta -= 1000;
-                    waluta_label.Text = "Waluta: " + waluta.ToString();
+                    Waluta -= 1000;
+                    waluta_label.Text = "Waluta: " + Waluta.ToString();
                     pictureBox7Bought = true;
                     pictureBox7.Image = Properties.Resources.Black_crystal1;
                 }
@@ -147,7 +152,7 @@ namespace Simple_Clicker
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            if (waluta >= 2000)
+            if (Waluta >= 2000)
             {
                 if (pictureBox6Bought)
                 {
@@ -157,8 +162,8 @@ namespace Simple_Clicker
                 else if (!pictureBox6Bought)
                 {
                     ilosc = 75;
-                    waluta -= 2000;
-                    waluta_label.Text = "Waluta: " + waluta.ToString();
+                    Waluta -= 2000;
+                    waluta_label.Text = "Waluta: " + Waluta.ToString();
                     pictureBox6Bought = true;
                     pictureBox6.Image = Properties.Resources.Violet_crystal1;
                 }
@@ -171,7 +176,7 @@ namespace Simple_Clicker
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            if (waluta >= 4000)
+            if (Waluta >= 4000)
             {
                 if (pictureBox5Bought)
                 {
@@ -181,8 +186,8 @@ namespace Simple_Clicker
                 else if (!pictureBox5Bought)
                 {
                     ilosc = 110;
-                    waluta -= 4000;
-                    waluta_label.Text = "Waluta: " + waluta.ToString();
+                    Waluta -= 4000;
+                    waluta_label.Text = "Waluta: " + Waluta.ToString();
                     pictureBox5Bought = true;
                     pictureBox5.Image = Properties.Resources.White_crystal1;
                 }

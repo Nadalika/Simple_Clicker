@@ -30,31 +30,31 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpgradeMenu));
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.up6PictureBox = new System.Windows.Forms.PictureBox();
+            this.up5PictureBox = new System.Windows.Forms.PictureBox();
+            this.up3PictureBox = new System.Windows.Forms.PictureBox();
+            this.up4PictureBox = new System.Windows.Forms.PictureBox();
+            this.up2PictureBox = new System.Windows.Forms.PictureBox();
+            this.up1PictureBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.up1Btn = new System.Windows.Forms.Button();
+            this.up2Btn = new System.Windows.Forms.Button();
+            this.up3Btn = new System.Windows.Forms.Button();
+            this.up4Btn = new System.Windows.Forms.Button();
+            this.up5Btn = new System.Windows.Forms.Button();
+            this.up6Btn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up6PictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up5PictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up3PictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up4PictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up2PictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up1PictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -68,65 +68,65 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox6
+            // up6PictureBox
             // 
-            this.pictureBox6.Image = global::Simple_Clicker.Properties.Resources.Up6Grey;
-            this.pictureBox6.Location = new System.Drawing.Point(420, 393);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.up6PictureBox.Image = global::Simple_Clicker.Properties.Resources.Up6Grey;
+            this.up6PictureBox.Location = new System.Drawing.Point(420, 393);
+            this.up6PictureBox.Name = "up6PictureBox";
+            this.up6PictureBox.Size = new System.Drawing.Size(64, 64);
+            this.up6PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.up6PictureBox.TabIndex = 6;
+            this.up6PictureBox.TabStop = false;
             // 
-            // pictureBox5
+            // up5PictureBox
             // 
-            this.pictureBox5.Image = global::Simple_Clicker.Properties.Resources.Up5Grey;
-            this.pictureBox5.Location = new System.Drawing.Point(420, 236);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.up5PictureBox.Image = global::Simple_Clicker.Properties.Resources.Up5Grey;
+            this.up5PictureBox.Location = new System.Drawing.Point(420, 236);
+            this.up5PictureBox.Name = "up5PictureBox";
+            this.up5PictureBox.Size = new System.Drawing.Size(64, 64);
+            this.up5PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.up5PictureBox.TabIndex = 5;
+            this.up5PictureBox.TabStop = false;
             // 
-            // pictureBox4
+            // up3PictureBox
             // 
-            this.pictureBox4.Image = global::Simple_Clicker.Properties.Resources.Up4Grey;
-            this.pictureBox4.Location = new System.Drawing.Point(23, 393);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
+            this.up3PictureBox.Image = global::Simple_Clicker.Properties.Resources.Up4Grey;
+            this.up3PictureBox.Location = new System.Drawing.Point(23, 393);
+            this.up3PictureBox.Name = "up3PictureBox";
+            this.up3PictureBox.Size = new System.Drawing.Size(64, 64);
+            this.up3PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.up3PictureBox.TabIndex = 4;
+            this.up3PictureBox.TabStop = false;
             // 
-            // pictureBox3
+            // up4PictureBox
             // 
-            this.pictureBox3.Image = global::Simple_Clicker.Properties.Resources.Up3Grey;
-            this.pictureBox3.Location = new System.Drawing.Point(420, 82);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.up4PictureBox.Image = global::Simple_Clicker.Properties.Resources.Up3Grey;
+            this.up4PictureBox.Location = new System.Drawing.Point(420, 82);
+            this.up4PictureBox.Name = "up4PictureBox";
+            this.up4PictureBox.Size = new System.Drawing.Size(64, 64);
+            this.up4PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.up4PictureBox.TabIndex = 3;
+            this.up4PictureBox.TabStop = false;
             // 
-            // pictureBox2
+            // up2PictureBox
             // 
-            this.pictureBox2.Image = global::Simple_Clicker.Properties.Resources.Up2Grey;
-            this.pictureBox2.Location = new System.Drawing.Point(23, 236);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.up2PictureBox.Image = global::Simple_Clicker.Properties.Resources.Up2Grey;
+            this.up2PictureBox.Location = new System.Drawing.Point(23, 236);
+            this.up2PictureBox.Name = "up2PictureBox";
+            this.up2PictureBox.Size = new System.Drawing.Size(64, 64);
+            this.up2PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.up2PictureBox.TabIndex = 2;
+            this.up2PictureBox.TabStop = false;
             // 
-            // pictureBox1
+            // up1PictureBox
             // 
-            this.pictureBox1.Image = global::Simple_Clicker.Properties.Resources.Up1Grey;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 82);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.up1PictureBox.Image = global::Simple_Clicker.Properties.Resources.Up1Grey;
+            this.up1PictureBox.Location = new System.Drawing.Point(23, 82);
+            this.up1PictureBox.Name = "up1PictureBox";
+            this.up1PictureBox.Size = new System.Drawing.Size(64, 64);
+            this.up1PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.up1PictureBox.TabIndex = 1;
+            this.up1PictureBox.TabStop = false;
             // 
             // label1
             // 
@@ -193,64 +193,70 @@
             this.label6.Text = resources.GetString("label6.Text");
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // button2
+            // up1Btn
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.button2.Location = new System.Drawing.Point(23, 152);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(64, 43);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Koszt:\r\n500";
-            this.button2.UseVisualStyleBackColor = true;
+            this.up1Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.up1Btn.Location = new System.Drawing.Point(23, 152);
+            this.up1Btn.Name = "up1Btn";
+            this.up1Btn.Size = new System.Drawing.Size(64, 43);
+            this.up1Btn.TabIndex = 13;
+            this.up1Btn.Text = "Koszt:\r\n500";
+            this.up1Btn.UseVisualStyleBackColor = true;
+            this.up1Btn.Click += new System.EventHandler(this.up1Btn_Click);
             // 
-            // button3
+            // up2Btn
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.button3.Location = new System.Drawing.Point(23, 306);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 43);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Koszt:\r\n1000";
-            this.button3.UseVisualStyleBackColor = true;
+            this.up2Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.up2Btn.Location = new System.Drawing.Point(23, 306);
+            this.up2Btn.Name = "up2Btn";
+            this.up2Btn.Size = new System.Drawing.Size(64, 43);
+            this.up2Btn.TabIndex = 14;
+            this.up2Btn.Text = "Koszt:\r\n1000";
+            this.up2Btn.UseVisualStyleBackColor = true;
+            this.up2Btn.Click += new System.EventHandler(this.up2Btn_Click);
             // 
-            // button4
+            // up3Btn
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.button4.Location = new System.Drawing.Point(23, 463);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 43);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Koszt:\r\n1500";
-            this.button4.UseVisualStyleBackColor = true;
+            this.up3Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.up3Btn.Location = new System.Drawing.Point(23, 463);
+            this.up3Btn.Name = "up3Btn";
+            this.up3Btn.Size = new System.Drawing.Size(64, 43);
+            this.up3Btn.TabIndex = 15;
+            this.up3Btn.Text = "Koszt:\r\n1500";
+            this.up3Btn.UseVisualStyleBackColor = true;
+            this.up3Btn.Click += new System.EventHandler(this.up3Btn_Click);
             // 
-            // button5
+            // up4Btn
             // 
-            this.button5.Location = new System.Drawing.Point(420, 152);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(64, 43);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Koszt:\r\n2000";
-            this.button5.UseVisualStyleBackColor = true;
+            this.up4Btn.Location = new System.Drawing.Point(420, 152);
+            this.up4Btn.Name = "up4Btn";
+            this.up4Btn.Size = new System.Drawing.Size(64, 43);
+            this.up4Btn.TabIndex = 16;
+            this.up4Btn.Text = "Koszt:\r\n2000";
+            this.up4Btn.UseVisualStyleBackColor = true;
+            this.up4Btn.Click += new System.EventHandler(this.up4Btn_Click);
             // 
-            // button6
+            // up5Btn
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button6.Location = new System.Drawing.Point(420, 306);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(64, 43);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "Koszt:\r\n2500";
-            this.button6.UseVisualStyleBackColor = true;
+            this.up5Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.up5Btn.Location = new System.Drawing.Point(420, 306);
+            this.up5Btn.Name = "up5Btn";
+            this.up5Btn.Size = new System.Drawing.Size(64, 43);
+            this.up5Btn.TabIndex = 17;
+            this.up5Btn.Text = "Koszt:\r\n2500";
+            this.up5Btn.UseVisualStyleBackColor = true;
+            this.up5Btn.Click += new System.EventHandler(this.up5Btn_Click);
             // 
-            // button7
+            // up6Btn
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.button7.Location = new System.Drawing.Point(420, 463);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(64, 43);
-            this.button7.TabIndex = 18;
-            this.button7.Text = "Koszt:\r\n3000";
-            this.button7.UseVisualStyleBackColor = true;
+            this.up6Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.up6Btn.Location = new System.Drawing.Point(420, 463);
+            this.up6Btn.Name = "up6Btn";
+            this.up6Btn.Size = new System.Drawing.Size(64, 43);
+            this.up6Btn.TabIndex = 18;
+            this.up6Btn.Text = "Koszt:\r\n3000";
+            this.up6Btn.UseVisualStyleBackColor = true;
+            this.up6Btn.Click += new System.EventHandler(this.up6Btn_Click);
             // 
             // label7
             // 
@@ -268,33 +274,33 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.up6Btn);
+            this.Controls.Add(this.up5Btn);
+            this.Controls.Add(this.up4Btn);
+            this.Controls.Add(this.up3Btn);
+            this.Controls.Add(this.up2Btn);
+            this.Controls.Add(this.up1Btn);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.up6PictureBox);
+            this.Controls.Add(this.up5PictureBox);
+            this.Controls.Add(this.up3PictureBox);
+            this.Controls.Add(this.up4PictureBox);
+            this.Controls.Add(this.up2PictureBox);
+            this.Controls.Add(this.up1PictureBox);
             this.Controls.Add(this.button1);
             this.Name = "UpgradeMenu";
             this.Size = new System.Drawing.Size(800, 600);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up6PictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up5PictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up3PictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up4PictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up2PictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.up1PictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -302,24 +308,24 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox up1PictureBox;
+        private System.Windows.Forms.PictureBox up2PictureBox;
+        private System.Windows.Forms.PictureBox up4PictureBox;
+        private System.Windows.Forms.PictureBox up3PictureBox;
+        private System.Windows.Forms.PictureBox up5PictureBox;
+        private System.Windows.Forms.PictureBox up6PictureBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button up1Btn;
+        private System.Windows.Forms.Button up2Btn;
+        private System.Windows.Forms.Button up3Btn;
+        private System.Windows.Forms.Button up4Btn;
+        private System.Windows.Forms.Button up5Btn;
+        private System.Windows.Forms.Button up6Btn;
         private System.Windows.Forms.Label label7;
     }
 }
