@@ -222,6 +222,8 @@
             // 
             this.pictureBox1.Image = global::Simple_Clicker.Properties.Resources._68308;
             this.pictureBox1.Location = new System.Drawing.Point(307, 145);
+            this.pictureBox1.MaximumSize = new System.Drawing.Size(189, 176);
+            this.pictureBox1.MinimumSize = new System.Drawing.Size(130, 121);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(189, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

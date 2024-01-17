@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Simple_Clicker.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -53,12 +54,16 @@ namespace Simple_Clicker
                 Waluta += ilosc;
                 GameStateManager.Instance.CollectedResources = Waluta;
                 waluta_label.Text = "Waluta:" + Waluta.ToString();
+                pictureBox1.Image = Resources._68308_click;
+                pictureBox1.Size = new Size(130, 121);
             }
         }
 
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
             mousePressed = false;
+            pictureBox1.Image = Resources._68308;
+            pictureBox1.Size = new Size(189, 176);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
