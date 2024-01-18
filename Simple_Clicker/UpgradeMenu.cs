@@ -17,6 +17,8 @@ namespace Simple_Clicker
         private int[] upgradeCosts = { 500, 1000, 1500, 2000, 2500, 3000 }; // Koszty ulepszeń
         private int[] upgradeRates = { 2, 2, 4, 8, 16, 32 }; // Naliczanie waluty na sekundę
         private int[] upgradeLevels = { 0, 0, 0, 0, 0, 0 }; // Poziomy zakupionych ulepszeń
+        private Image[] upgradeImages = { Resources.Up1, Resources.Up2, Resources.Up4, Resources.Up3, Resources.Up5, Resources.Up6 };
+        private PictureBox[] upgradePictureBoxes;
         private int walutaPerSecond = 0; // Aktualne naliczanie waluty na sekundę
 
         private Timer timer;
@@ -28,6 +30,7 @@ namespace Simple_Clicker
         {
             InitializeComponent();
             InitializeTimer();
+            upgradePictureBoxes = new PictureBox[] { up1PictureBox, up2PictureBox, up3PictureBox, up4PictureBox, up5PictureBox, up6PictureBox };
         }
 
         private void InitializeTimer()
@@ -61,37 +64,31 @@ namespace Simple_Clicker
         private void up1Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(0);
-            up1PictureBox.Image = Resources.Up1;
         }
 
         private void up2Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(1);
-            up2PictureBox.Image = Resources.Up2;
         }
 
         private void up3Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(2);
-            up3PictureBox.Image = Resources.Up4;
         }
 
         private void up4Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(3);
-            up4PictureBox.Image = Resources.Up3;
         }
 
         private void up5Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(4);
-            up5PictureBox.Image = Resources.Up5;
         }
 
         private void up6Btn_Click(object sender, EventArgs e)
         {
             BuyUpgrade(5);
-            up6PictureBox.Image = Resources.Up6;
         }
 
         private void BuyUpgrade(int upgradeIndex)
@@ -101,6 +98,7 @@ namespace Simple_Clicker
                 GameControl.Waluta -= upgradeCosts[upgradeIndex];
                 upgradeLevels[upgradeIndex]++;
                 walutaPerSecond += upgradeRates[upgradeIndex];
+                upgradePictureBoxes[upgradeIndex].Image = upgradeImages[upgradeIndex];
 
                 // Wywołaj zdarzenie, aby zaktualizować interfejs użytkownika
                 WalutaUpdated?.Invoke(this, GameControl.Waluta);
